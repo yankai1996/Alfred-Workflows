@@ -2,7 +2,7 @@
 
 # Downloads.alfredworkflow
 
-#### ⬇️[Download](https://github.com/yankai1996/Alfred-Workflows/raw/master/Downloads/Downloads.alfredworkflow)
+#### [⬇️ Download](https://github.com/yankai1996/Alfred-Workflows/raw/master/Downloads/Downloads.alfredworkflow)
 
 > Triggers: `downloads`
 

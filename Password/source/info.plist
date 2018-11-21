@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
-	<string></string>
+	<string>yankai1996.alfred.workflow.password</string>
 	<key>connections</key>
 	<dict>
 		<key>0D4C5D37-4B59-43FD-B99D-B6D813F2866C</key>
@@ -145,7 +145,7 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Yan Kai</string>
+	<string>Kai Yan</string>
 	<key>description</key>
 	<string>Password Manager</string>
 	<key>disabled</key>

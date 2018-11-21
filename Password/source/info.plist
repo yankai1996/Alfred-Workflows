@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>0D4C5D37-4B59-43FD-B99D-B6D813F2866C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>AB41C7E8-D9DF-4694-BBD4-82A9622C523F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2F1084CE-815A-45E7-9267-44D3A920AF43</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>5E45D92B-D4DA-43D4-B855-005D3343FC90</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>51A17C82-A630-4E9E-B5D3-8E48AD411559</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Delete this record...</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>371ABBF8-88C6-4257-ABDF-CA95507FE62C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>31D57EF3-A28E-467C-8861-73CD0D4074D5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6A9686F6-02EE-41E0-A7B5-F8A9A2D8FAE7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>51A17C82-A630-4E9E-B5D3-8E48AD411559</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>687D17C5-C5D8-43C0-8131-ED484ED9B714</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>5E45D92B-D4DA-43D4-B855-005D3343FC90</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>608C1C25-E9CD-42AD-9C57-44388462F68C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>608C1C25-E9CD-42AD-9C57-44388462F68C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C8977F63-4371-48F3-A299-AC298E4B9F06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>687D17C5-C5D8-43C0-8131-ED484ED9B714</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0D4C5D37-4B59-43FD-B99D-B6D813F2866C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AB41C7E8-D9DF-4694-BBD4-82A9622C523F</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>371ABBF8-88C6-4257-ABDF-CA95507FE62C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C8977F63-4371-48F3-A299-AC298E4B9F06</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0D4C5D37-4B59-43FD-B99D-B6D813F2866C</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Yan Kai</string>
+	<key>description</key>
+	<string>Password Manager</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Password</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{var:password}</string>
+				<key>title</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>31D57EF3-A28E-467C-8861-73CD0D4074D5</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Verifying...</string>
+				<key>script</key>
+				<string>import sys
+from password import verify
+
+verify(sys.argv[1])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>{var:website} {var:username}</string>
+				<key>title</key>
+				<string>Verify the user</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>C8977F63-4371-48F3-A299-AC298E4B9F06</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>password</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>2</integer>
+				<key>runningsubtext</key>
+				<string>Searching...</string>
+				<key>script</key>
+				<string>import password
+import sys
+
+if len(sys.argv) == 1:
+	password.allpassword()
+else:
+	password.password()
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Password Manager</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>2F1084CE-815A-45E7-9267-44D3A920AF43</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import sys
+from password import process
+
+process(sys.argv[1])</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>0D4C5D37-4B59-43FD-B99D-B6D813F2866C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>100</integer>
+				<key>script</key>
+				<string>&lt;?php
+$query = $argv[1];
+$vars=explode(' ',$query);
+echo '{
+	"alfredworkflow" : {
+		"arg" : "",
+		"config" : {},
+		"variables" : {
+			"header"  : "'.$vars[0].'",
+			"website" : "'.$vars[1].'",
+			"username": "'.$vars[2].'"
+		}
+	}
+}'
+?&gt;</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>608C1C25-E9CD-42AD-9C57-44388462F68C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>import sys
+import os
+
+header = os.environ['header']
+
+if header == 'get':
+    sys.stdout.write('Password')
+elif header == 'new':
+    sys.stdout.write('Password generated')
+elif header == 'del':
+    sys.stdout.write('Password deleted')</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>371ABBF8-88C6-4257-ABDF-CA95507FE62C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>variables</key>
+				<dict>
+					<key>password</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>AB41C7E8-D9DF-4694-BBD4-82A9622C523F</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>5E45D92B-D4DA-43D4-B855-005D3343FC90</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{var:password}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>6A9686F6-02EE-41E0-A7B5-F8A9A2D8FAE7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>&lt;?php
+$query = $argv[1];
+$vars=explode(' ',$query);
+
+$vars[0]='del';
+
+echo '{
+	"alfredworkflow" : {
+		"arg" : "",
+		"config" : {},
+		"variables" : {
+			"header"  : "'.$vars[0].'",
+			"website" : "'.$vars[1].'",
+			"username": "'.$vars[2].'"
+		}
+	}
+}'
+?&gt;</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>687D17C5-C5D8-43C0-8131-ED484ED9B714</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>1</integer>
+				<key>matchstring</key>
+				<string></string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>51A17C82-A630-4E9E-B5D3-8E48AD411559</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>0D4C5D37-4B59-43FD-B99D-B6D813F2866C</key>
+		<dict>
+			<key>note</key>
+			<string>Backend processing</string>
+			<key>xpos</key>
+			<integer>780</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>2F1084CE-815A-45E7-9267-44D3A920AF43</key>
+		<dict>
+			<key>xpos</key>
+			<integer>50</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>31D57EF3-A28E-467C-8861-73CD0D4074D5</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1210</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>371ABBF8-88C6-4257-ABDF-CA95507FE62C</key>
+		<dict>
+			<key>note</key>
+			<string>Output</string>
+			<key>xpos</key>
+			<integer>1030</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>51A17C82-A630-4E9E-B5D3-8E48AD411559</key>
+		<dict>
+			<key>xpos</key>
+			<integer>320</integer>
+			<key>ypos</key>
+			<integer>340</integer>
+		</dict>
+		<key>5E45D92B-D4DA-43D4-B855-005D3343FC90</key>
+		<dict>
+			<key>xpos</key>
+			<integer>230</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>608C1C25-E9CD-42AD-9C57-44388462F68C</key>
+		<dict>
+			<key>note</key>
+			<string>Parse query to save variables and remove argument</string>
+			<key>xpos</key>
+			<integer>330</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+		<key>687D17C5-C5D8-43C0-8131-ED484ED9B714</key>
+		<dict>
+			<key>xpos</key>
+			<integer>420</integer>
+			<key>ypos</key>
+			<integer>310</integer>
+		</dict>
+		<key>6A9686F6-02EE-41E0-A7B5-F8A9A2D8FAE7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1210</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>AB41C7E8-D9DF-4694-BBD4-82A9622C523F</key>
+		<dict>
+			<key>note</key>
+			<string>Save notification output</string>
+			<key>xpos</key>
+			<integer>940</integer>
+			<key>ypos</key>
+			<integer>130</integer>
+		</dict>
+		<key>C8977F63-4371-48F3-A299-AC298E4B9F06</key>
+		<dict>
+			<key>xpos</key>
+			<integer>500</integer>
+			<key>ypos</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

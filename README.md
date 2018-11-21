@@ -1,10 +1,14 @@
 # Alfred-Workflows
 My Alfred workflows
 
-## Downloads
+## [Downloads](https://github.com/yankai1996/Alfred-Workflows/tree/master/Downloads)
 
 List recent files in `~/Downloads/ `. You can open, reveal, or delete the selected file. 
 
-## Tomcat
+## [Tomcat](https://github.com/yankai1996/Alfred-Workflows/tree/master/Tomcat)
 
 Apache Tomcat start-up/shut-down
+
+## [Password](https://github.com/yankai1996/Alfred-Workflows/tree/master/Password)
+
+Create, save and retrieve passwords like 1Password. Just for fun.

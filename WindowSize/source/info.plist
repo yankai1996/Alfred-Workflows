@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>yankai1996.alfred.workflow.windowsize</string>
+	<key>connections</key>
+	<dict>
+		<key>3F1514D4-1857-4EC5-ADEE-0C5260DC2825</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>48C87278-41FF-4243-8776-FAFC20C56864</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A2007B6E-99EA-4190-92F5-BD20C8496317</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CCE79621-9649-42C3-8071-60A7005DF2D8</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D0CC0700-EF17-4CEC-8939-02907128BD91</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3F1514D4-1857-4EC5-ADEE-0C5260DC2825</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>A2007B6E-99EA-4190-92F5-BD20C8496317</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Kai Yan</string>
+	<key>description</key>
+	<string>Custom the window to my favorite size and postion</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Window Size</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set theApp to "Preview"set appHeight to 1080set appWidth to 900tell application theApp	activate	reopen	set the bounds of the first window to {0, 0, appWidth, appHeight}end telltell application "System Events"	tell process "Preview"
+		keystroke "2" using command down	end tellend tell</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>48C87278-41FF-4243-8776-FAFC20C56864</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:focusedapp}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>com.apple.Preview</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>3F1514D4-1857-4EC5-ADEE-0C5260DC2825</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<true/>
+				<key>focusedappvariablename</key>
+				<string>focusedapp</string>
+				<key>hotkey</key>
+				<integer>13</integer>
+				<key>hotmod</key>
+				<integer>524288</integer>
+				<key>hotstring</key>
+				<string>W</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedApps</key>
+				<array>
+					<string>com.google.Chrome</string>
+					<string>com.apple.Preview</string>
+				</array>
+				<key>relatedAppsMode</key>
+				<integer>1</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>D0CC0700-EF17-4CEC-8939-02907128BD91</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>set theApp to "Google Chrome"set appHeight to 1080set appWidth to 1180tell application theApp	activate	reopen	set the bounds of the first window to {0, 0, appWidth, appHeight}end tell</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>6</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>CCE79621-9649-42C3-8071-60A7005DF2D8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{var:focusedapp}</string>
+				<key>matchcasesensitive</key>
+				<false/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>com.google.Chrome</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>A2007B6E-99EA-4190-92F5-BD20C8496317</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>3F1514D4-1857-4EC5-ADEE-0C5260DC2825</key>
+		<dict>
+			<key>note</key>
+			<string>activated by Preview</string>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>110</integer>
+		</dict>
+		<key>48C87278-41FF-4243-8776-FAFC20C56864</key>
+		<dict>
+			<key>note</key>
+			<string>Preview</string>
+			<key>xpos</key>
+			<integer>480</integer>
+			<key>ypos</key>
+			<integer>80</integer>
+		</dict>
+		<key>A2007B6E-99EA-4190-92F5-BD20C8496317</key>
+		<dict>
+			<key>note</key>
+			<string>activated by Google Chrome</string>
+			<key>xpos</key>
+			<integer>340</integer>
+			<key>ypos</key>
+			<integer>250</integer>
+		</dict>
+		<key>CCE79621-9649-42C3-8071-60A7005DF2D8</key>
+		<dict>
+			<key>note</key>
+			<string>Google Chrome</string>
+			<key>xpos</key>
+			<integer>480</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>D0CC0700-EF17-4CEC-8939-02907128BD91</key>
+		<dict>
+			<key>xpos</key>
+			<integer>60</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.1</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
